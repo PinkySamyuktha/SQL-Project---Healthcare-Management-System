@@ -1,7 +1,7 @@
 # Healthcare Management System (SQL Project)
 
 ## Overview
-Designed a relational database using SQL to streamline hospital operations, including clinical scheduling, billing, and patient medical records.
+Designed a healthcare-focused relational database system using SQL to efficiently manage patient, provider, and administrative workflows. The system supports clinical documentation, billing, and appointment scheduling in a simulated hospital setting.
 
 ## Tools Used
 - MySQL
@@ -9,14 +9,18 @@ Designed a relational database using SQL to streamline hospital operations, incl
 
 ## Skills Demonstrated
 - Database Design
+- Data Modeling & Normalization
 - Query Optimization
-- Data Normalization
+- Clinical Workflow Integration
 
 ## Project Steps
-1. Designed ER Diagram for healthcare entities
-2. Implemented tables for patient, staff, billing, etc.
-3. Wrote SQL queries to retrieve insights
-4. Applied normalization techniques for optimization
+1. Identified hospital operational needs and converted them into ER diagrams.
+2. Created and normalized tables for patients, doctors, billing, visits, departments, etc.
+3. Wrote queries to:
+   - Retrieve appointments by doctor/department
+   - Generate billing reports
+   - Check patient medical records
+4. Applied constraints and indexing for data integrity and performance.
 
 ## Outcome
-Improved data accessibility, reduced redundancy, and enhanced reporting in a simulated hospital environment.
+Improved efficiency in hospital operations and reduced data redundancy while enabling reliable health record retrieval and billing processes.
